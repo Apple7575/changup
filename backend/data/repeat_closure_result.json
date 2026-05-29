@@ -1,0 +1,5 @@
+﻿cluster_id,business_type_id,center_latitude,center_longitude,closure_count,short_term_closure_count,short_term_closure_ratio,repeat_closure_score,risk_level,pattern_label
+CLU-0001,CAFE,37.29126,127.0471125,4,3,75.0,58,MEDIUM,CAFE 반복 폐업 관찰 지역
+CLU-0002,CAFE,37.257575,127.02975,2,0,0.0,10,LOW,CAFE 반복 폐업 관찰 지역
+CLU-0003,CAFE,37.35973333333333,127.10545,3,3,100.0,65,MEDIUM,CAFE 반복 폐업 관찰 지역
+CLU-0004,BUNSIK,37.289,127.045,1,1,100.0,55,MEDIUM,BUNSIK 반복 폐업 관찰 지역
