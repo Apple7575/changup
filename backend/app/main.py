@@ -13,7 +13,7 @@ load_dotenv()
 
 app = FastAPI(title="창업나침반 경기 API", version="1.1.0")
 
-origins = os.getenv("CORS_ORIGINS", "http://localhost:5173").split(",")
+origins = os.getenv("CORS_ORIGINS", "http://localhost:5173,https://*.vercel.app").split(",")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[origin.strip() for origin in origins],
